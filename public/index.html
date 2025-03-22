@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Recommender</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Recipe Recommender</h1>
+
+  <label for="diet">Dietary Restrictions:</label>
+  <select id="diet">
+    <option value="vegetarian">Vegetarian</option>
+    <option value="glutenFree">Gluten-Free</option>
+    <option value="vegan">Vegan</option>
+    <option value="paleo">Paleo</option>
+  </select>
+
+  <br>
+
+  <label for="ingredients">Ingredients (comma separated):</label>
+  <input type="text" id="ingredients" placeholder="e.g., chicken, carrots, rice">
+
+  <br><br>
+
+  <button onclick="getRecommendations()">Get Recommendations</button>
+
+  <h2>Recommended Recipes:</h2>
+  <div id="recipes"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
