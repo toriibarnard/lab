@@ -20,7 +20,7 @@ async function getRecipeRecommendations(diet, ingredients) {
       params: {
         ingredients: ingredients.join(','),
         diet: diet,  // dietary restrictions
-        number: 5,   // number of recipes to fetch
+        number: 3,   // number of recipes to fetch
         apiKey: SPOONACULAR_API_KEY,
       }
     });

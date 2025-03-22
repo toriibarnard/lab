@@ -37,3 +37,4 @@ function displayRecipes(recipes) {
     recipesDiv.appendChild(recipeElement);
   });
 }
+

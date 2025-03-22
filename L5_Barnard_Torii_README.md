@@ -5,7 +5,6 @@
 * *Date Created*: 09 03 2025
 * *Last Modification Date*: 10 03 2025
 * *GitLab URL*: <https://git.cs.dal.ca/barnard/csci3172>
-* *Netlify URL*: <https://lustrous-crisp-1520a6.netlify.app>
 
 
 ## Authors
