@@ -9,12 +9,12 @@ dotenv.config();
 const api = express();
 const router = express.Router();
 
-// Enable CORS for all routes
+// enable CORS for all routes
 api.use(cors());
 
-const API_KEY = process.env.SPOONACULAR_API_KEY;  // Your Spoonacular API key
+const API_KEY = process.env.SPOONACULAR_API_KEY;
 
-// Endpoint to search recipes based on ingredients
+// endpoint to search recipes based on ingredients
 router.get("/recipes", async (req, res) => {
   const ingredients = req.query.ingredients;
   if (!ingredients) {
